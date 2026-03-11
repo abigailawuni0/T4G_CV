@@ -1,13 +1,40 @@
+body{
+    background-color: bisque;
+}
 
 .logo{width: 200px;
 border-radius: 48%;
 height: 220px;}
+
 .logoandtext{display: flex;}
 .bachelor{color: rgb(95, 95, 244);}
 .project{color: rgb(95, 95, 244) ;}
 .software{color: rgb(95, 95, 244)}
-.threeimages{width: 100px;height: 10px;}
+.threeimages{width: 100px;height: 100px;}
+
+.threeimages img{
+    height: 100px;
+    width: 100px;
+}
+
 h1{
 background-color: aqua;
 width: 2000px;
+}
+
+.container{
+    background: rgb(194, 189, 189);
+    overflow: hidden;
+    margin: auto;
+    padding: 40px;
+}
+
+.bottom-div{
+    display: flex;
+    gap: 20px;
+}
+
+.bottom-div img{
+    height: 100px;
+    width: 100px;
 }
